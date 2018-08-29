@@ -1,0 +1,15 @@
+version: '2'
+services: 
+  prometheus:
+    image: prom/prometheus
+    container_name: ${AX_ID}-prometheus
+    ports:
+      - ${AX_PROMETHEUS_PORT}:9090
+    volumes:
+      - ${AX_TZ_LOCAL}:/etc/localtime:ro
+      - ${AX_HOME}/docker/prometheus/config/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ${AX_HOME}/docker/prometheus/data:/prometheus
+    networks:
+      default:
+        aliases:
+          - prometheus.vm

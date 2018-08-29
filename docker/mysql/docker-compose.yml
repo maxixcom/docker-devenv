@@ -1,0 +1,21 @@
+version: '2'
+services:  
+  mysql:
+    image: mysql:5.7
+    container_name: ${AX_ID}-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=scout
+      - MYSQL_DATABASE=hotbot_origin
+      - MYSQL_USER=dbuser
+      - MYSQL_PASSWORD=dbpass
+    volumes:
+      - ${AX_TZ_LOCAL}:/etc/localtime:ro
+      - ${AX_HOME}/docker/mysql/etc/conf.d:/etc/mysql/conf.d
+      - ${AX_HOME}/docker/mysql/data:/var/lib/mysql
+      - ${AX_HOME}/docker/mysql/initdb.d:/docker-entrypoint-initdb.d
+    ports:
+      - ${AX_MYSQL_PORT}:3306
+    networks:
+      default:
+        aliases:
+          - mysql.vm

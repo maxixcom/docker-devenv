@@ -1,0 +1,23 @@
+server {
+  listen 80;
+
+  root	   /var/www/html/site.vm;
+  index	   index.php;
+  server_name	site.vm site1.vm site2.vm;
+
+  charset UTF-8;
+  access_log  /var/log/nginx/site_access.log  main;
+  error_log   /var/log/nginx/site_error.log;
+
+  location / {
+      autoindex on;
+      index   index.php;
+
+      try_files $uri $uri/ /index.php$is_args$args;
+      location ~ \.php$ {
+          fastcgi_pass php.vm:9000;
+          include /etc/nginx/fastcgi_params;
+          fastcgi_param  SCRIPT_FILENAME    $request_filename;
+      }
+  }
+}
