@@ -37,6 +37,11 @@ services:
       file: docker/prometheus/docker-compose.yml
       service: prometheus
 
+  jaeger:
+    extends:
+      file: docker/jaeger/docker-compose.yml
+      service: jaeger
+
 networks:
   default:
     external:

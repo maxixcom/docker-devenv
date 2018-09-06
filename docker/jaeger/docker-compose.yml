@@ -1,0 +1,14 @@
+version: '2'
+services: 
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    container_name: ${AX_ID}-jaeger
+    ports:
+      - ${AX_JAEGER_UI_PORT}:16686
+      - ${AX_JAEGER_PORT}:6831/udp
+    volumes:
+      - ${AX_TZ_LOCAL}:/etc/localtime:ro
+    networks:
+      default:
+        aliases:
+          - jaeger.vm
