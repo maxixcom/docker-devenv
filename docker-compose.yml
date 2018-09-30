@@ -42,6 +42,11 @@ services:
       file: docker/jaeger/docker-compose.yml
       service: jaeger
 
+  mongo:
+    extends:
+      file: docker/mongo/docker-compose.yml
+      service: mongo
+
 networks:
   default:
     external:
