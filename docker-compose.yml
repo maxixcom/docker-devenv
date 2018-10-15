@@ -47,6 +47,11 @@ services:
       file: docker/mongo/docker-compose.yml
       service: mongo
 
+  wowza:
+    extends:
+      file: docker/wowza/docker-compose.yml
+      service: wowza
+
 networks:
   default:
     external:

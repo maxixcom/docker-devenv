@@ -1,1 +1,1 @@
-MODULES := mysql php web consul cassandra grafana prometheus mongo
+MODULES := mysql php web consul cassandra grafana prometheus mongo wowza
