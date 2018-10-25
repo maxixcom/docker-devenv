@@ -1,0 +1,13 @@
+2018-10-25 09:38:13,915 [main] INFO  net.winstone.boot.BootStrap  - stage 1/3: Loading arguments...
+2018-10-25 09:38:13,916 [main] INFO  net.winstone.boot.BootStrap  - stage 2/3: Loading WebApplication configuration...
+2018-10-25 09:38:13,917 [main] INFO  net.winstone.boot.BootStrap  - stage 3/3: compute JSP classpath...
+2018-10-25 09:38:13,954 [main] INFO  net.winstone.core.HostConfiguration  - Beginning extraction from war file
+2018-10-25 09:38:14,387 [main] INFO  net.winstone.core.WebXmlParser  - Found and enabled the local Servlet 2.5 XSD replacement
+2018-10-25 09:38:14,632 [main] WARN  net.winstone.core.WebXmlParser  - XML Error (Line 2): Document is invalid: no grammar found.
+2018-10-25 09:38:14,632 [main] WARN  net.winstone.core.WebXmlParser  - XML Error (Line 2): Document root element "web-app", must match DOCTYPE root "null".
+2018-10-25 09:38:14,736 [main] INFO  net.winstone.core.WebAppConfiguration  - Access logging disabled - no logger class defined
+2018-10-25 09:38:14,884 [main] INFO  net.winstone.core.WebAppConfiguration  - webapp Initializing Spring root WebApplicationContext
+2018-10-25 09:38:16,591 [main] INFO  net.winstone.core.WebAppConfiguration  - webapp Initializing Spring FrameworkServlet 'wowzaapp'
+2018-10-25 09:38:16,783 [main] INFO  net.winstone.core.HostConfiguration  - Deploy web application: prefix [/enginemanager] webroot [/usr/local/WowzaStreamingEngine/manager/temp]
+2018-10-25 09:38:16,791 [main] INFO  net.winstone.core.listener.HttpListener  - HTTP Listener started: port=8088
+2018-10-25 09:38:16,801 [LauncherControlThread[ControlPort=-1]]] INFO  net.winstone.Server  - Winstone Servlet Engine v1.0.5 running: controlPort=disabled

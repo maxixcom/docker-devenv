@@ -1,0 +1,95 @@
+#Version: 1.0
+#Start-Date: 2018-10-25 09:38:14 GMT
+#Software: Wowza Streaming Engine 4.7.6 build20180731190812
+#Date: 2018-10-25
+#Fields: date	time	tz	x-event	x-category	x-severity	x-status	x-ctx	x-comment	x-vhost	x-app	x-appinst	x-duration	s-ip	s-port	s-uri	c-ip	c-proto	c-referrer	c-user-agent	c-client-id	cs-bytes	sc-bytes	x-stream-id	x-spos	cs-stream-bytes	sc-stream-bytes	x-sname	x-sname-query	x-file-name	x-file-ext	x-file-size	x-file-length	x-suri	x-suri-stem	x-suri-query	cs-uri-stem	cs-uri-query
+2018-10-25	09:38:15	GMT	server-start	server	INFO	200	Wowza Streaming Engine 4 Developer Edition (Expires: Apr 15, 2019) 4.7.6 build 20180731190812	-	-	-	-	1.093	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Server License Key: EDEV4-XXXXX-XXXXX-XXXXX-XXXXX-zcYxT	-	-	-	1.094	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Maximum Connections: 10	-	-	-	1.094	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Maximum Incoming Streams: 3	-	-	-	1.096	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Transcoder Streams Available: 1	-	-	-	1.099	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Transcoder Watermark: Yes	-	-	-	1.1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	nDVR Available: Yes	-	-	-	1.1	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	DRM Available: Yes	-	-	-	1.101	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	HTTP Origin Available: No	-	-	-	1.101	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Push Publish Available: Yes	-	-	-	1.101	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	REST API Available: Yes	-	-	-	1.102	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Hardware Available Processors: 4	-	-	-	1.103	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Hardware Physical Memory [free/total]: 235MB/15912MB	-	-	-	1.103	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Hardware Swap Space [free/total]: 7935MB/7935MB	-	-	-	1.103	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Max File Descriptor Count: 64000	-	-	-	1.104	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Open File Descriptor Count: 81	-	-	-	1.104	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Linux Networking Parameters	-	-	-	1.113	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	/proc/sys/net/ipv4/tcp_rmem: 4096 87380 6291456	-	-	-	1.188	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	/proc/sys/net/ipv4/tcp_wmem: 4096 16384 4194304	-	-	-	1.189	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	/proc/sys/net/ipv4/tcp_sack: 1	-	-	-	1.19	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	/proc/sys/net/ipv4/tcp_window_scaling: 1	-	-	-	1.191	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	OS Name: Linux	-	-	-	1.191	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	OS Version: 4.18.15-100.fc27.x86_64	-	-	-	1.192	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	OS Architecture: amd64	-	-	-	1.192	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Name: Java HotSpot(TM) 64-Bit Server VM	-	-	-	1.192	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Vendor: Oracle Corporation	-	-	-	1.192	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Version: 1.8.0_77	-	-	-	1.193	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java VM Version: 25.77-b03	-	-	-	1.193	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Spec Version: 1.8	-	-	-	1.193	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Home: /usr/local/WowzaStreamingEngine-4.7.6/jre/jre	-	-	-	1.193	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Max Heap Size: 10000MB	-	-	-	1.194	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Architecture: 64	-	-	-	1.194	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Locale[user.language]: en	-	-	-	1.194	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Locale[user.country]: US	-	-	-	1.194	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Locale[file.encoding]: ANSI_X3.4-1968	-	-	-	1.195	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Timezone[user.timezone]: GMT	-	-	-	1.195	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Args[0]: -Xmx10000M	-	-	-	1.195	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Args[1]: -XX:+UseG1GC	-	-	-	1.195	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Args[2]: -XX:MaxGCPauseMillis=100	-	-	-	1.196	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Args[3]: -Djava.net.preferIPv4Stack=true	-	-	-	1.196	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Args[4]: -Dcom.sun.management.jmxremote=true	-	-	-	1.196	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Args[5]: -Dcom.wowza.wms.runmode=standalone	-	-	-	1.196	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Args[6]: -Dcom.wowza.wms.native.base=linux	-	-	-	1.197	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Args[7]: -Dcom.wowza.wms.AppHome=/usr/local/WowzaStreamingEngine	-	-	-	1.197	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Args[8]: -Dcom.wowza.wms.ConfigURL=	-	-	-	1.197	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Java Args[9]: -Dcom.wowza.wms.ConfigHome=/usr/local/WowzaStreamingEngine	-	-	-	1.197	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Server runmode: standalone	-	-	-	1.197	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Server native.platform: linux	-	-	-	1.198	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:15	GMT	comment	server	INFO	200	-	Server threads[h/t]: 240/160	-	-	-	1.198	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	RESTServer: Bind attempt ([any]:8087)	-	-	-	2.856	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	RESTServer: Bind successful ([any]:8087)	-	-	-	3.134	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	Wowza REST API started	-	-	-	3.134	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	RESTServer: Using configs from:/usr/local/WowzaStreamingEngine/	-	-	-	3.134	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	RESTServer: SSL:No	-	-	-	3.135	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	RESTServer: BasicAuth:No	-	-	-	3.135	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	RESTServer: Digest:Yes	-	-	-	3.135	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	RESTServer: DigestFile:No	-	-	-	3.135	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	RESTServer: RemoteHTTPDigest:No	-	-	-	3.135	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	RESTServer: XML Viewer:No	-	-	-	3.136	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	REST Documentation Server has been disabled.	-	-	-	3.183	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	CMDInterface now listening: [any]:8083	-	-	-	3.221	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	MediaCache[MediaCache]: Thread pool size: [writer/readahead]:8/4	-	-	-	3.287	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	MediaCache[MediaCache]: MAX Pending size: [writer/readahead]:1000M/500M	-	-	-	3.288	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	MediaCache[MediaCache]: Add store: path:/usr/local/WowzaStreamingEngine/mediacache maxSize:10737418240	-	-	-	3.291	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	MediaCache[MediaCache]: Add source[dvrorigin]: prefix:dvrorigin/ basePath:http://	-	-	-	3.324	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	MediaCache[MediaCache]: Flushing cache: start	-	-	-	3.332	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	MediaCache[MediaCache]: Flushing cache: done	-	-	-	3.392	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	MediaCache[MediaCache]: Start MediaCache GC	-	-	-	3.392	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:17	GMT	comment	server	INFO	200	-	MediaCache[MediaCache]: Started	-	-	-	3.397	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	server	INFO	200	-	REST API: ready	-	-	-	3.85	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	vhost-start	vhost	INFO	200	_defaultVHost_	-	-	-	-	3.927	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	server	INFO	200	-	_defaultVHost_ threads[h/t]:0/0 home:/usr/local/WowzaStreamingEngine	-	-	-	3.953	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	vhost	INFO	200	_defaultVHost_	Bind attempt ([any]:1935:8)	-	-	-	3.967	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	vhost	INFO	200	_defaultVHost_	Bind successful ([any]:1935)	-	-	-	3.983	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	vhost	INFO	200	_defaultVHost_	Bind attempt ([any]:80:8)	-	-	-	4.004	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	vhost	INFO	200	_defaultVHost_	Bind successful ([any]:80)	-	-	-	4.012	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	vhost	INFO	200	_defaultVHost_	Bind attempt ([any]:443:8)	-	-	-	4.013	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	vhost	INFO	200	_defaultVHost_	Bind successful ([any]:443)	-	-	-	4.015	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	vhost	INFO	200	_defaultVHost_	Bind attempt ([any]:554:8)	-	-	-	4.015	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	vhost	INFO	200	_defaultVHost_	Bind successful ([any]:554)	-	-	-	4.018	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	vhost	INFO	200	_defaultVHost_	Bind attempt ([any]:8086:4)	-	-	-	4.019	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	vhost	INFO	200	_defaultVHost_	Bind successful ([any]:8086)	-	-	-	4.02	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	server	INFO	200	-	Server.startShutdownHook: Start server shutdown hook	-	-	-	4.024	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	server	INFO	200	-	StatsManager:startManager() Enabled=true	-	-	-	4.065	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:18	GMT	comment	server	INFO	200	-	Wowza Streaming Engine is started!	-	-	-	4.067	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:20	GMT	comment	server	INFO	200	-	StatsDatabaseMachine:create(/usr/local/WowzaStreamingEngine/stats/machine.wdb ) Successful.	-	-	-	5.436	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:20	GMT	comment	server	INFO	200	-	StatsDatabaseServer:create(/usr/local/WowzaStreamingEngine/stats/server.wdb ) Successful.	-	-	-	5.443	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:20	GMT	comment	server	INFO	200	-	StatsDatabaseVHost:create(/usr/local/WowzaStreamingEngine/stats/vhost_defaultVHost_.wdb ) Successful.	-	-	-	5.446	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:20	GMT	comment	server	INFO	200	-	StatsDatabaseApplication:create(/usr/local/WowzaStreamingEngine/stats/application_defaultVHost_live.wdb ) Successful.	-	-	-	5.45	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+2018-10-25	09:38:20	GMT	comment	server	INFO	200	-	StatsDatabaseApplication:create(/usr/local/WowzaStreamingEngine/stats/application_defaultVHost_vod.wdb ) Successful.	-	-	-	5.453	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-

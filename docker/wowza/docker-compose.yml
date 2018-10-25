@@ -1,7 +1,9 @@
 version: '2'
-services:  
+services:
   wowza:
-    image: wowzamedia/wowza-streaming-engine-linux:latest
+    build:
+      context: .
+    image: ${AX_ID}_wowza
     container_name: ${AX_ID}-wowza
     entrypoint: /sbin/entrypoint.sh
     environment:

@@ -7,6 +7,7 @@ config:
 clean-config:
 
 clean-data:
-	rm -rf $(CURDIR)/log
+	rm -rf $(CURDIR)/logs
 
 clean-docker-rmi:
+	$(DOCKER) rmi $(ID)_wowza || echo -e "\033[0;31mNo such resource\033[0m"

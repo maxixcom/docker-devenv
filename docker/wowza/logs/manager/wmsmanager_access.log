@@ -1,0 +1,29 @@
+#Version: 1.0
+#Start-Date: 2018-10-25 09:38:14 GMT
+#Software: Wowza Streaming Engine Manager 4.7.6 build20180731190812
+#Date: 2018-10-25
+#Fields: date	time	tz	x-server	x-user	x-severity	x-category	x-comment
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	OS Name: Linux: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	OS Version: 4.18.15-100.fc27.x86_64: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	OS Architecture: amd64: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Name: Java HotSpot(TM) 64-Bit Server VM: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Vendor: Oracle Corporation: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Version: 1.8.0_77: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java VM Version: 25.77-b03: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Spec Version: 1.8: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Home: /usr/local/WowzaStreamingEngine-4.7.6/jre/jre: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Max Heap Size: 3538MB: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Architecture: 64: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Locale[user.language]: en: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Locale[user.country]: US: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Locale[file.encoding]: ANSI_X3.4-1968: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Timezone[user.timezone]: GMT: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Args[0]: -Dcom.wowza.wms.ConfigURL="": 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Args[1]: -Dcom.wowza.wms.ConfigHome=/usr/local/WowzaStreamingEngine/manager: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Args[2]: -Djava.io.tmpdir=/usr/local/WowzaStreamingEngine/manager/temp: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Args[3]: -Dlog4j.configuration=file:///usr/local/WowzaStreamingEngine/manager/conf/winstone-log4j.properties: 
+2018-10-25	09:38:14	GMT			INFO	com.wowza.wms.logging.Log4jStartupListener	Java Args[4]: -Djava.net.preferIPv4Stack=true: 
+2018-10-25	09:38:15	GMT			INFO	org.hibernate.validator.util.Version	Hibernate Validator null
+2018-10-25	09:38:16	GMT			INFO	com.wowza.wms.server.ManagerConfiguration	Loading configuration from /usr/local/WowzaStreamingEngine/manager/conf/Manager.xml: 
+2018-10-25	09:38:16	GMT			INFO	com.wowza.wms.server.ManagerConfiguration	Loading configuration from /usr/local/WowzaStreamingEngine/manager/conf/Manager.xml: 
+2018-10-25	09:38:16	GMT			INFO	com.wowza.wms.webapp.RequestLoggingFilter	RequestLoggingFilter disabled, no HTTP requests will be logged: 

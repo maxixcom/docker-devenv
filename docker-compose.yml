@@ -1,51 +1,5 @@
 version: '2'
-services:  
-  mysql:
-    extends:
-      file: docker/mysql/docker-compose.yml
-      service: mysql
-
-  php:
-    extends:
-      file: docker/php/docker-compose.yml
-      service: php
-
-  web:
-    extends:
-      file: docker/web/docker-compose.yml
-      service: web
-    links:
-      - php
-
-  consul:
-    extends:
-      file: docker/consul/docker-compose.yml
-      service: consul
-
-  cassandra:
-    extends:
-      file: docker/cassandra/docker-compose.yml
-      service: cassandra
-
-  grafana:
-    extends:
-      file: docker/grafana/docker-compose.yml
-      service: grafana
-
-  prometheus:
-    extends:
-      file: docker/prometheus/docker-compose.yml
-      service: prometheus
-
-  jaeger:
-    extends:
-      file: docker/jaeger/docker-compose.yml
-      service: jaeger
-
-  mongo:
-    extends:
-      file: docker/mongo/docker-compose.yml
-      service: mongo
+services:
 
   wowza:
     extends:

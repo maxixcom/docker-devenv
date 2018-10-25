@@ -21,9 +21,7 @@ env:
 	> $(CURDIR)/.env
 
 sources:
-	install -m 0755 -d $(CURDIR)/sources/site.vm
-	install -m 0755 -d $(CURDIR)/sources/origin.$(DOMAIN)/public
-	install -m 0755 -d $(CURDIR)/sources/dev.$(DOMAIN)/public
+	install -m 0755 -d $(CURDIR)/sources/
 
 create: sources config create-docker
 
