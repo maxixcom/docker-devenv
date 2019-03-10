@@ -1,0 +1,24 @@
+version: '2'
+services:
+  wowza:
+    build:
+      context: .
+    image: ${AX_ID}_wowza
+    container_name: ${AX_ID}-wowza
+    entrypoint: /sbin/entrypoint.sh
+    environment:
+      - WSE_LIC=EDEV4-k8JNP-UECCD-KDVfW-avBxR-zcYxT-8p3HjtH3yAt6
+    volumes:
+      - ${AX_TZ_LOCAL}:/etc/localtime:ro
+      - ${AX_HOME}/docker/wowza/logs/server:/usr/local/WowzaStreamingEngine/logs
+      - ${AX_HOME}/docker/wowza/logs/manager:/usr/local/WowzaStreamingEngine/manager/logs
+      - ${AX_HOME}/docker/wowza/logs/supervisord.log:/supervisor/supervisord.log
+    ports:
+      - 1935:1935
+      - 8086:8086
+      - 8087:8087
+      - 8088:8088
+    networks:
+      default:
+        aliases:
+          - wowza.vm
