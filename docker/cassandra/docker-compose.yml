@@ -1,0 +1,14 @@
+version: '2'
+services: 
+  cassandra:
+    image: cassandra:latest
+    container_name: ${AX_ID}-cassandra
+    ports:
+      - ${AX_CASSANDRA_PORT}:9042
+    volumes:
+      - ${AX_TZ_LOCAL}:/etc/localtime:ro
+      - ${AX_HOME}/docker/cassandra/data:/var/lib/cassandra
+    networks:
+      default:
+        aliases:
+          - cassandra.vm

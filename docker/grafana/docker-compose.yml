@@ -1,0 +1,14 @@
+version: '2'
+services: 
+  grafana:
+    image: grafana/grafana
+    container_name: ${AX_ID}-grafana
+    ports:
+      - ${AX_GRAFANA_PORT}:3000
+    volumes:
+      - ${AX_TZ_LOCAL}:/etc/localtime:ro
+      - ${AX_HOME}/docker/grafana/data:/var/lib/grafana
+    networks:
+      default:
+        aliases:
+          - grafana.vm

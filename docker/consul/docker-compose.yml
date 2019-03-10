@@ -1,0 +1,22 @@
+version: '2'
+services:  
+  consul:
+    image: consul:latest
+    container_name: ${AX_ID}-consul-server
+    command: agent -server -bootstrap -data-dir /consul/data -config-dir /consul/config -client 0.0.0.0 -ui
+    environment:
+      - CONSUL_UI_BETA=true
+    ports:
+      - "8300:8300"
+      - "8400:8400"
+      - "8500:8500"
+      - "8600:53/udp"
+    volumes:
+      - ${AX_TZ_LOCAL}:/etc/localtime:ro
+      - ${AX_HOME}/docker/consul/data:/consul/data
+      - ${AX_HOME}/docker/consul/config/server.json:/consul/config/server.json
+    hostname: consul-server
+    networks:
+      default:
+        aliases:
+          - consul-server.vm
